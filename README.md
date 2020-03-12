@@ -13,6 +13,7 @@ import simplexMethod as sim
 import numpy as np
 
 #Testing Problem
+
 cost = np.array([1,1,1])
 
 mat = np.array([[5,0,6],[1,6,4],[4,4,8]])
@@ -20,6 +21,7 @@ mat = np.array([[5,0,6],[1,6,4],[4,4,8]])
 res = np.array([1,1,1])
 
 c = 0
+
 TestingProblem = sim.linProblem(cost,c,mat,res)
 
 
