@@ -9,6 +9,7 @@ A python scripts for solving linear programming problem by simplex method.
 Example command:
 
 import simplexMethod as sim
+
 import numpy as np
 
 #Testing Problem
